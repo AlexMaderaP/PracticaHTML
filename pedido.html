@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido LaunchBakery</title>
+</head>
+<body>
+    <img src="./assets/logo.PNG" alt="logo LaunchBakery">
+
+    <h1>Personaliza tu pastel</h1>
+
+    <form action="pedido.js">
+        <p>Elige tu sabor o sabores</p>
+        <input type="checkbox" name="vainilla" id="vainilla" value="vainilla">
+        <label for="vainilla">Pastel de Vainilla</label>
+        <br>
+        <input type="checkbox" name="Chocolate" id="Chocolate" value="Chocolate">
+        <label for="Chocolate">Pastel de Chocolate</label>
+        <br>
+        <input type="checkbox" name="Fresa" id="Fresa" value="Fresa">
+        <label for="Fresa">Pastel de Fresa</label>
+        <br>
+        <input type="checkbox" name="tresLeches" id="tresLeches" value="tresLeches">
+        <label for="tresLeches">Pastel de tres leches</label>
+        <br>
+        <input type="checkbox" name="redVelvet" id="redVelvet" value="redVelvet">
+        <label for="redVelvet">Pastel de red velvet</label>
+        <br>
+
+        <p>Elige la curbierta que desees</p>
+        <input type="radio" name="Cubierta" id="fondant" value="fondant">
+        <label for="fondant">Cubierta de Fondant</label><br>
+        <input type="radio" name="Cubierta" id="Buttercream" value="Buttercream">
+        <label for="Buttercream">Cubierta de Buttercream</label><br>
+        <input type="radio" name="Cubierta" id="Glaseado" value="Glaseado">
+        <label for="Glaseado">Cubierta de Glaseado de queso crema</label><br>
+        <input type="radio" name="Cubierta" id="Mazapan" value="Mazapan">
+        <label for="Mazapan">Cubierta de Mazapan</label><br>
+
+        <p>Elige los adornos de tu preferencia:</p>
+        <input type="checkbox" name="Frutas" id="Frutas" value="Frutas">
+        <label for="Frutas">Decoración de Frutas</label>
+        <br>
+        <input type="checkbox" name="decoracionChocolate" id="decoracionChocolate" value="decoracionChocolate">
+        <label for="decoracionChocolate">Decoración de Chocolate</label>
+        <br>
+        <input type="checkbox" name="Merengue" id="Merengue" value="Merengue">
+        <label for="Merengue">Decoración de Merengue</label>
+        <br><br>
+        
+        <label for="detalles">Describenos algún detalle en especial que quieras en tu pastel:</label><br>
+        <input type="text" name="detalles" id="detalles" placeholder="..."><br><br>
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre"><br><br>
+
+        <label for="correo1">Correo:</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <label for="numero1">Cel:</label><br>
+        <input type="number" id="numero1" name="numero1"><br><br>
+
+        <br><br>
+
+        <input type="reset" value="Restablecer">
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
